@@ -1,6 +1,52 @@
+# Prerequisites / Предварительные условия
+*.d
 
-# .v4p backup files
-*~.xml
+# Object files / Объектные файлы
+*.o
+*.ko
+*.obj
+*.elf
 
-# Dynamic plugins .dll
-bin/
+# Linker output / Вывод компоновщика
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers / Предварительно скомпилированные заголовки
+*.gch
+*.pch
+
+# Libraries / Библиотеки
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs) / Общие объекты (Включая библиотеки DLL Windows)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables / Исполняемые файлы
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files / Откладочные файлы
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results / Результаты компиляции модуля ядра
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
